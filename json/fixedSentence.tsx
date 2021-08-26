@@ -1,9 +1,8 @@
 import "tailwindcss/tailwind.css";
-import {Datas} from "./Datas"
+import { Datas } from "./Datas";
 
 export const fiexdSentence = {
-  caution:
-    `本ページの情報は${Datas[0].date}時点のものです。最新の配信状況はU-NEXT公式サイトにてご確認ください。`,
+  caution: `本ページの情報は${Datas[0].date}時点のものです。最新の配信状況はU-NEXT公式サイトにてご確認ください。`,
   date: `【${Datas[0].date}：H-NEXT】`,
   comment: (function () {
     return (
@@ -13,9 +12,9 @@ export const fiexdSentence = {
         </p>
         <p style={{ paddingBottom: "8px" }}>
           <span style={{ fontWeight: "bold" }}>マジで抜けます</span>
-          、これ見放題なのはヤバいです。
+          、ほんと一回見て欲しい。
         </p>
-        <p>ぜひ見ましょう、よかったらでいいので。</p>
+        <p>H-NEXTで見てみてください、よかったらでいいので。</p>
       </>
     );
   })(),

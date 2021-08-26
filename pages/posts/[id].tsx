@@ -114,10 +114,7 @@ const Post: NextPage<Props> = ({ Data }) => {
                 {Data.actress &&
                   Data.actress.map((data: string) => (
                     <span className="pr-1" key={data}>
-                      <Link
-                        href={`/actress/${decodeURI(Data.actress)}`}
-                        passHref
-                      >
+                      <Link href={`/actress/${decodeURI(data)}`} passHref>
                         <a className="text-blue-500 hover:opacity-90 border-b border-blue-500">
                           {data}
                         </a>
