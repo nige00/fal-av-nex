@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import Layout from "../../components/Layout";
 import ReviewStar from "../../components/ReviewStar";
 import { Datas } from "../../json/Datas";
@@ -113,7 +114,14 @@ const Post: NextPage<Props> = ({ Data }) => {
                 {Data.actress &&
                   Data.actress.map((data: string) => (
                     <span className="pr-1" key={data}>
-                      {data}
+                      <Link
+                        href={`/actress/${decodeURI(Data.actress)}`}
+                        passHref
+                      >
+                        <a className="text-blue-500 hover:opacity-90 border-b border-blue-500">
+                          {data}
+                        </a>
+                      </Link>
                     </span>
                   ))}
               </div>
