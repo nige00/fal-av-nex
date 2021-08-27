@@ -19,7 +19,7 @@ export const fiexdSentence = {
     );
   })(),
   affiliateLink:
-    "https://lp.hnext.jp/browse/maker/AMK0003813?utm_source=linka&utm_medium=a_n&utm_campaign=a_n_title_adult",
+    "https://link-a.net/gate.php?guid=on&mcode=cxz7499d&acode=rxwrcbfvzd6j&itemid=0",
   microCopy: "＼31日間無料 + 1200円分のポイントGET！／",
   hnext: "H-NEXT",
   faleno: "FALENO",
